@@ -1,0 +1,58 @@
+Nova aplicação:
+
+back em python - django
+front em react
+banco de dados em mongoDB?
+
+O que é a aplicação:
+
+É um local que servirá para poder organizar a faculdade de modo mais fácil e que quiser.
+
+Requisitos:
+
+Um quadro kanban
+Um calendário no qual é possível colocar: provas, trabalhos, horários de aula, horários de estudo
+Gráficos, estatísticas e relatórios
+Tenha controle do tempo 
+Tenha conexão com o spotify e outras ferramentas
+Possa criar um espaço que seja possível colocar informações da disciplina
+Eu acho que um calendário onde essas datas importantes de provas e trabalhos seriam expostas tbm seria maneiro
+
+Definições:
+
+- Será um web app. Motivos: Acesso remoto de qualquer navegador, mais rápido de desenvolver, não precisa baixar nada
+- FrontEnd seá feito em react
+- BackEnd será feito em Django
+
+
+Sprints segundo o chatGPT:
+
+Sprint 1: Configuração Inicial e Funcionalidades Básicas
+    -Configurar ambiente de desenvolvimento (frontend e backend).
+    -Configurar o React com o Django/Node.js.
+    -Criar estrutura básica da aplicação.
+    -Implementar autenticação de usuários.
+
+Sprint 2: Quadro Kanban
+    -Criar componente de quadro Kanban no React.
+    -Desenvolver APIs para criar, ler, atualizar e deletar tarefas.
+    -Implementar conexão do frontend com o backend.
+    -Sprint 3: Calendário
+    -Implementar componente de calendário.
+    -Desenvolver APIs para adicionar eventos (provas, trabalhos, horários).
+    -Conectar calendário com backend para persistência de dados.
+    
+Sprint 4: Gráficos e Estatísticas
+    -Escolher biblioteca de gráficos (como Chart.js ou D3.js).
+    -Implementar componente de gráficos no frontend.
+    -Desenvolver APIs para fornecer dados estatísticos e relatórios.
+
+Sprint 5: Controle de Tempo e Conexão com Spotify
+    -Implementar funcionalidades de controle de tempo (como um cronômetro ou timer).
+    -Integrar com a API do Spotify para controle de música.
+    -Desenvolver APIs para salvar dados de controle de tempo.
+    
+Sprint 6: Espaço para Informações de Disciplinas
+    -Implementar CRUD de disciplinas.
+    -Desenvolver APIs para gerenciar disciplinas.
+    -Criar interface no frontend para adicionar e visualizar informações das disciplinas.
